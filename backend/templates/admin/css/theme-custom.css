@@ -1,0 +1,9 @@
+ul#products {
+    padding: 0;
+    margin: 0;
+}
+
+ul#products li {
+    list-style-type: none;
+    padding: 10px;
+}

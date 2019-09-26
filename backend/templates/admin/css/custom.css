@@ -1,0 +1,116 @@
+.button-flat {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border: 1px solid transparent;
+    font-size: 13px;
+    font-weight: normal;
+    height: 21px;
+    line-height: 21px;
+    margin-right: 1px;
+    min-width: 0;
+    padding: 0;
+}
+
+.button-narrow {
+    min-width: 34px;
+    padding: 0;
+}
+
+.button {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    margin-right: 16px;
+    height: 27px;
+    line-height: 27px;
+    min-width: 54px;
+    outline: 0px;
+    padding: 0 8px;
+}
+
+.inline-block {
+    position: relative;
+    display: -moz-inline-box;
+    display: inline-block;
+}
+
+#add-btn {
+    background-color: #db4437;
+}
+
+#add-btn {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: none;
+    bottom: 24px;
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, .3), 0px 0px 1px rgba(0, 0, 0, .1), inset 0px 1px 0px rgba(255, 255, 255, .25), inset 0px -1px 0px rgba(0, 0, 0, .15);
+    -moz-box-shadow: 0px 2px 10px rgba(0, 0, 0, .3), 0px 0px 1px rgba(0, 0, 0, .1), inset 0px 1px 0px rgba(255, 255, 255, .25), inset 0px -1px 0px rgba(0, 0, 0, .15);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, .3), 0px 0px 1px rgba(0, 0, 0, .1), inset 0px 1px 0px rgba(255, 255, 255, .25), inset 0px -1px 0px rgba(0, 0, 0, .15);
+    cursor: pointer;
+    height: 56px;
+    position: fixed;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+    -webkit-transition-property: background-color, -webkit-box-shadow;
+    transition-property: background-color, box-shadow;
+    right: 24px;
+    width: 56px;
+    z-index: 2;
+}
+
+#add-btn:hover {
+    -webkit-box-shadow: 0px 5px 5px rgba(0,0,0,.2),0px 10px 14px rgba(0,0,0,.1),inset 0px 1px 0px rgba(255,255,255,.25),inset 0px -1px 0px rgba(0,0,0,.10);
+    -moz-box-shadow: 0px 5px 5px rgba(0,0,0,.2),0px 10px 14px rgba(0,0,0,.1),inset 0px 1px 0px rgba(255,255,255,.25),inset 0px -1px 0px rgba(0,0,0,.10);
+    box-shadow: 0px 5px 5px rgba(0,0,0,.2),0px 10px 14px rgba(0,0,0,.1),inset 0px 1px 0px rgba(255,255,255,.25),inset 0px -1px 0px rgba(0,0,0,.10);
+}
+
+#add-btn .add-btn-icon {
+    margin: auto;
+    top: 16px;
+}
+
+.add-btn-icon-medium {
+    height: 24px;
+    outline: none;
+    width: 24px;
+}
+
+.add-btn-icon {
+    direction: ltr;
+    text-align: left;
+    overflow: hidden;
+    position: relative;
+    vertical-align: middle;
+}
+
+.add-btn-white-24 {
+    left: 0;
+    top: -149px;
+}
+
+.add-btn-img {
+    height: 908px;
+    position: absolute;
+    width: 78px;
+}
+
+.add-btn-img:before {
+    content: url(../images/h_sprite17.svg);
+}
+
+.required {
+    display: block;
+}
+
+div.filter {
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+    background-color: #ffce55;
+    color: #664c0e;
+}
